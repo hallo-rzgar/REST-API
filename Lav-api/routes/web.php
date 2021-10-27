@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('api/items', 'App\Http\Controllers\ItemController');
+Route::resource('api/items', 'App\Http\Controllers\ItemController::class');
